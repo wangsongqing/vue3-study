@@ -6,22 +6,24 @@
   <button @click="addAge">增加年龄</button>
 </template>
 
-<script setup>
-let name = 'wsq'
-let age = 12
-let tel = '18200000001'
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const name = ref('wsq')
+const age = ref(12)
+const tel = '18200000001'
 
 function showTel() {
   alert(tel)
 }
 
 function changeName() {
-  name = '三个'
+  name.value = '三个'
   console.log(name)
 }
 
 function addAge() {
-  age++
+  age.value++
   console.log(age)
 }
 
