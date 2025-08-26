@@ -2,10 +2,10 @@
 // import Person from './components/Person.vue'
 // import ShowModel from './components/ShowModel.vue';
 // import PersonOne from './components/PersonOne.vue';
-import CarOne from './components/CarOne.vue'
+import CarTwo from './components/CarTwo.vue'
 export default {
   name: 'App',
-  components: { CarOne }
+  components: { CarTwo }
 }
 </script>
 
@@ -13,7 +13,8 @@ export default {
   <!-- <Person></Person> -->
   <!-- <ShowModel></ShowModel> -->
   <!-- <PersonOne></PersonOne> -->
-  <CarOne></CarOne>
+  <!-- <CarOne></CarOne> -->
+  <CarTwo></CarTwo>
 </template>
 
 <style></style>
