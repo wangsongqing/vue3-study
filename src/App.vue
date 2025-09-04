@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" setup>
 // import Person from './components/Person.vue'
 // import ShowModel from './components/ShowModel.vue';
 // import PersonOne from './components/PersonOne.vue';
@@ -7,10 +7,10 @@
 // import WatchOne from './components/WatchOne.vue';
 // import WatchTwo from './components/WatchTwo.vue'
 import WatchThree from './components/WatchThree.vue'
-export default {
-  name: 'App',
-  components: { WatchThree }
-}
+// export default {
+//   name: 'App',
+//   components: { WatchThree }
+// }
 </script>
 
 <template>
